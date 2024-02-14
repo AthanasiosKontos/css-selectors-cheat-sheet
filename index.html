@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Cheat Sheet</h1>
+    </header>
+    <main>
+        <section class="html-overview">
+            <h2>HTML Overview</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                        <td><code>&lt;h1&gt;Heading&lt;/h1&gt;</code></td>
+                        <td>Defines HTML headings.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td><code>&lt;a href="url"&gt;Link&lt;/a&gt;</code></td>
+                        <td>Defines a hyperlink.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td><code>&lt;p&gt;Paragraph&lt;/p&gt;</code></td>
+                        <td>Defines a paragraph.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
+                        <td>Defines an unordered list.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td><code>&lt;table&gt;&lt;tr&gt;&lt;th&gt;Header&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code></td>
+                        <td>Defines a table.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="css-selectors">
+            <h2>CSS Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>.class</td>
+                        <td><code>.example { color: black; }</code></td>
+                        <td>Selects all elements with class="example".</td>
+                    </tr>
+                    <tr>
+                        <td>#id</td>
+                        <td><code>#unique { color: black; }</code></td>
+                        <td>Selects the element with id="unique".</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td><code>* { margin: 0; }</code></td>
+                        <td>Selects all elements.</td>
+                    </tr>
+                    <tr>
+                        <td>element</td>
+                        <td><code>h1 { font-size: 24px; }</code></td>
+                        <td>Selects all &lt;h1&gt; elements.</td>
+                    </tr>
+                    <tr>
+                        <td>:hover</td>
+                        <td><code>a:hover { color: red; }</code></td>
+                        <td>Applies to links on mouse-over.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="specificity">
+            <h2>Specificity</h2>
+            <p>Specificity determines which CSS rule is applied by the browsers when multiple rules could apply to the same element. It is calculated based on the number of ID selectors, class selectors, and element selectors.</p>
+        </section>
+    </main>
+</body>
+</html>
